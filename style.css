@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background: #222;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 80px 20px;
+    min-height: 100vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+input, textarea {
+    margin: 5px 0;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Tema escuro */
+.dark {
+    background: #121212;
+    color: white;
+}
