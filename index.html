@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfólio - Ryan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>Ryan</h2>
+        <div>
+            <a href="#sobre">Sobre</a>
+            <a href="#formacao">Formação</a>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#contato">Contato</a>
+            <button onclick="toggleTheme()">🌙</button>
+        </div>
+    </nav>
+</header>
+
+<section id="sobre">
+    <h1>Sobre Mim</h1>
+    <p>Meu nome é Ryan Perego Silvestri, tenho 24 anos e sou estudante de Ciência da Computação. Sou apaixonado por tecnologia, programação e evolução constante.</p>
+</section>
+
+<section id="formacao">
+    <h1>Formação</h1>
+    <p>Curso: Ciência da Computação</p>
+    <p>Idiomas: Português (nativo), Inglês básico</p>
+</section>
+
+<section id="portfolio">
+    <h1>Portfólio</h1>
+    <ul>
+        <li><a href="#">Projeto Web 1</a></li>
+        <li><a href="#">Sistema em desenvolvimento</a></li>
+    </ul>
+</section>
+
+<section id="contato">
+    <h1>Contato</h1>
+    <form id="form">
+        <input type="text" id="nome" placeholder="Nome">
+        <input type="email" id="email" placeholder="Email">
+        <textarea id="mensagem" placeholder="Mensagem"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+    <p id="msg"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
